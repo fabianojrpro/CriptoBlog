@@ -1,0 +1,64 @@
+
+/* navegação estilo*/
+.logo-bitcoin {
+    margin-left: 30px;
+    cursor: pointer;
+}
+.itens-nave {
+    margin-right: 30px;
+    font-size: 1.03em;
+}
+.itens-nave a:hover {
+    color: blue !important;
+}
+#logo1 {
+    font-size: 1.7em;
+}
+
+/* imagem principal noticia*/
+#imagem-principal {
+    background-image: url(../img/principal.jpg);
+    background-position: center;
+    filter: brightness(95%);
+}
+/* textos da noticia principal*/
+#texto-noticia-principal {
+    text-align: start;
+    color: #FFC107; 
+    background: rgba(2, 2, 2, 0.733);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );  
+}
+#texto-noticia-principal p {
+    color: white;
+}
+/* area de noticias*/
+#image-bitcoin {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+#imagem-elon {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.titulo-moedas {
+    text-align: center;
+    color: #FFC107;
+    background: rgba(0, 0, 0, 0.733);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(245, 90, 1, 0.18);  
+}
+
+/* back to top*/
+.backToTop {
+    margin-left: 10px;
+}
+.backToTop a {
+    color: black;
+}
